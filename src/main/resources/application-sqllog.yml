@@ -1,0 +1,13 @@
+logging:
+  level:
+    org:
+      springframework:
+        orm:
+          jpa: TRACE
+        transaction: TRACE
+spring:
+  jpa:
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
